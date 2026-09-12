@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="reading-progress" id="reading-progress"></div>
+  <header class="topbar">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-mark">IE</span>
+      <span><strong>Impact Evaluation</strong><small>Framework</small></span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">☰</button>
+    <nav class="topnav">
+      <a href="{{ '/' | relative_url }}">Início</a>
+      <a href="{{ '/pt-br/overview.html' | relative_url }}">Avaliação</a>
+      <a href="{{ '/pt-br/indicators.html' | relative_url }}">Indicadores</a>
+      <a href="{{ '/pt-br/data.html' | relative_url }}">Dados</a>
+      <a href="{{ '/pt-br/dashboard.html' | relative_url }}">BI</a>
+    </nav>
+    <div class="lang-switch">
+      <a href="{{ '/pt-br/overview.html' | relative_url }}">🇧🇷</a>
+      <a href="{{ '/en/overview.html' | relative_url }}">🇺🇸</a>
+      <a href="{{ '/es/overview.html' | relative_url }}">🇪🇸</a>
+    </div>
+  </header>
+
+  <div class="page-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-title">Navegação</div>
+      <a class="side-link home-link" href="{{ '/' | relative_url }}">⌂ Visão geral</a>
+      <div class="side-group"><span>Avaliação</span>
+        <a href="{{ '/pt-br/methodology.html' | relative_url }}">Metodologia</a>
+        <a href="{{ '/pt-br/evaluation-model.html' | relative_url }}">Modelo de avaliação</a>
+        <a href="{{ '/pt-br/indicators.html' | relative_url }}">Indicadores</a>
+      </div>
+      <div class="side-group"><span>Implementação</span>
+        <a href="{{ '/pt-br/instruments.html' | relative_url }}">Instrumentos e coleta</a>
+        <a href="{{ '/pt-br/data.html' | relative_url }}">Arquitetura de dados</a>
+        <a href="{{ '/pt-br/analysis.html' | relative_url }}">Análise</a>
+        <a href="{{ '/pt-br/dashboard.html' | relative_url }}">Dashboard e BI</a>
+        <a href="{{ '/pt-br/reporting.html' | relative_url }}">Relatórios</a>
+        <a href="{{ '/pt-br/requirements.html' | relative_url }}">Requisitos</a>
+      </div>
+      <div class="side-group"><span>Governança</span>
+        <a href="{{ '/pt-br/privacy.html' | relative_url }}">Dados e privacidade</a>
+      </div>
+      <div class="side-note"><strong>Princípio</strong><br>Não medir primeiro.<br>Compreender primeiro.</div>
+    </aside>
+
+    <main class="content-wrap">
+      <div class="breadcrumbs"><a href="{{ '/' | relative_url }}">Framework</a><span>/</span><span>{{ page.title }}</span></div>
+      <article class="content">
+        {{ content }}
+      </article>
+      <footer class="site-footer">
+        <div><strong>Impact Evaluation Framework</strong><br><span>Framework técnico aberto e reutilizável.</span></div>
+        <div><a href="https://github.com/sayjinblackbelt/impact-evaluation-framework">GitHub</a> · <a href="{{ '/' | relative_url }}">Início ↑</a></div>
+      </footer>
+    </main>
+  </div>
+  <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+</body>
+</html>
