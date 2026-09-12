@@ -20,4 +20,4 @@ Apoiar equipes na estruturação de avaliações de projetos, programas e inicia
 - Fazer a tecnologia servir à metodologia.
 - Preservar privacidade e governança.
 
-[Voltar ao início](../index.md)
+[Voltar ao início](../index.html)
