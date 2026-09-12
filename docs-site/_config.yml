@@ -1,4 +1,11 @@
 title: Impact Evaluation Framework
-description: Trilingual technical documentation for impact evaluation
-theme: jekyll-theme-cayman
+description: Framework técnico aberto e reutilizável para avaliação de resultados e impacto
 markdown: kramdown
+baseurl: "/impact-evaluation-framework"
+url: "https://sayjinblackbelt.github.io"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
