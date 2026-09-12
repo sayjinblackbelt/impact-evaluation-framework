@@ -1,45 +1,42 @@
 # Impact Evaluation Framework
 
-> A reusable framework for turning program experience into evidence for learning and decision-making.
+> Framework técnico aberto e reutilizável para estruturar avaliações de resultados e impacto.
 
-**Português · English · Español**
+**🇧🇷 [Português](pt-br/overview.md) · 🇺🇸 [English](en/overview.md) · 🇪🇸 [Español](es/overview.md)**
 
-## From experience to evidence
+## Navegação
 
-**Understanding → Model → Indicators → Instruments → Data → Analysis → Management → Evaluation**
+### Avaliação
+- [Visão geral](pt-br/overview.md)
+- [Metodologia](pt-br/methodology.md)
+- [Modelo de avaliação](pt-br/evaluation-model.md)
+- [Indicadores](pt-br/indicators.md)
 
-This framework helps teams design an evaluation system before choosing forms, databases, dashboards, or statistical methods.
+### Implementação
+- [Instrumentos e coleta](pt-br/instruments.md)
+- [Arquitetura de dados](pt-br/data.md)
+- [Análise](pt-br/analysis.md)
+- [Dashboard e BI](pt-br/dashboard.md)
+- [Relatórios](pt-br/reporting.md)
+- [Requisitos e dimensionamento](pt-br/requirements.md)
 
-## Core components
+### Governança
+- [Dados e privacidade](pt-br/privacy.md)
 
-### 01 — Evaluation design
-Objectives, expected outcomes, dimensions, theory of change, assumptions and evaluation questions.
+## Fluxo central
 
-### 02 — Indicators
-Indicator matrices connecting objectives, outcomes, metrics, sources, instruments, frequency, analysis and visualization.
+**Compreensão → Modelo → Indicadores → Instrumentos → Dados → Análise → Gestão → Avaliação final**
 
-### 03 — Data
-Collection routines, data architecture, validation, standardization, traceability and privacy safeguards.
+## Princípio
 
-### 04 — Analysis
-Descriptive analysis, comparison over time, interpretation of evidence, limitations and decision support.
+> **Não medir primeiro. Compreender primeiro.**
 
-### 05 — Management
-Dashboards and reports designed around the information needed for tactical and strategic decisions.
+A tecnologia deve servir à metodologia de avaliação, e não definir a metodologia.
 
-### 06 — Final evaluation
-Synthesis of evidence, findings, methodological limitations and recommendations.
+## Dados públicos
 
-## A methodological principle
+Todos os exemplos deste site devem utilizar informações fictícias, sintéticas, anonimizadas ou sanitizadas. Não publicar dados pessoais, informações institucionais confidenciais, credenciais ou material que identifique clientes sem autorização.
 
-> **Do not measure first. Understand first.**
+## Repositório
 
-Technology should serve the evaluation methodology — not define it.
-
-## Public-data policy
-
-All examples in this public site must use fictional, synthetic, anonymized or sanitized information. No personal data, confidential institutional information, credentials or unauthorized client-identifying material should be published.
-
-## Repository
-
-[View the project on GitHub](https://github.com/sayjinblackbelt/impact-evaluation-framework)
+[GitHub](https://github.com/sayjinblackbelt/impact-evaluation-framework)
