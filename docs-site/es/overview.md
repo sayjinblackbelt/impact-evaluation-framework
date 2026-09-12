@@ -20,4 +20,4 @@ Apoyar a equipos en el diseño de evaluaciones de proyectos, programas e iniciat
 - Hacer que la tecnología sirva a la metodología.
 - Proteger la privacidad y la gobernanza de datos.
 
-[Volver al inicio](../index.md)
+[Volver al inicio](../index.html)
