@@ -2,6 +2,8 @@
 
 Framework técnico para estruturar avaliações de resultados e impacto de projetos, programas e iniciativas sociais.
 
+🌐 **Documentação online:** [GitHub Pages](https://sayjinblackbelt.github.io/impact-evaluation-framework/)
+
 ## Objetivo
 
 Este repositório reúne modelos, estruturas e referências práticas para apoiar um processo completo de avaliação:
