@@ -1,0 +1,9 @@
+record_id,period,public_group,dimension,indicator,value,unit,measurement_type
+SYN-001,2026-H1,Youth,Digital autonomy,Confidence using digital tools,78,percent,quantitative
+SYN-002,2026-H1,Youth,Planning,Ability to plan a weekly task,72,percent,quantitative
+SYN-003,2026-H1,Technical team,Methodological alignment,Use of evaluation guidance,84,percent,quantitative
+SYN-004,2026-H1,Technical team,Data quality,Records meeting validation rules,91,percent,quantitative
+SYN-005,2026-H2,Youth,Digital autonomy,Confidence using digital tools,83,percent,quantitative
+SYN-006,2026-H2,Youth,Planning,Ability to plan a weekly task,79,percent,quantitative
+SYN-007,2026-H2,Technical team,Methodological alignment,Use of evaluation guidance,88,percent,quantitative
+SYN-008,2026-H2,Technical team,Data quality,Records meeting validation rules,94,percent,quantitative
