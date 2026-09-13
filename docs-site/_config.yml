@@ -4,6 +4,14 @@ markdown: kramdown
 baseurl: "/impact-evaluation-framework"
 url: "https://sayjinblackbelt.github.io"
 
+# The repository contains previously generated HTML files alongside Markdown sources.
+# Exclude those generated files so Jekyll always renders the current Markdown version.
+exclude:
+  - "index.html"
+  - "pt-br/*.html"
+  - "en/*.html"
+  - "es/*.html"
+
 defaults:
   - scope:
       path: ""
